@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+
+.banner {
+    background: radial-gradient(69.03% 69.03% at 50% 47.82%, #A06EFF 0%, #380F87 100%);
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    position: fixed;
+    margin-top: 15px;
+    align-content: center;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.navbaritems {
+    display: flex;
+    height: 67px;
+    padding: 21px 26px;
+    align-items: center;
+    gap: 30px;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.10);
+    font-family: Sora, sans-serif;
+    letter-spacing: -0.8px;
+}
+
+.navbarl {
+    opacity: 0.5;
+}
