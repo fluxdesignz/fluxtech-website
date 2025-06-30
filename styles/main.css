@@ -5,8 +5,8 @@
 }
 
 html, body {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
 }
 
 body {
@@ -16,8 +16,9 @@ body {
 
 .banner {
     background: radial-gradient(69.03% 69.03% at 50% 47.82%, #A06EFF 0%, #380F87 100%);
-    width: 100%;
+    width: auto;
     height: 100%;
+    overflow: hidden;
 }
 
 .navbar {
@@ -29,6 +30,7 @@ body {
     align-content: center;
     transform: translateX(-50%);
     left: 50%;
+    z-index: 1;
 }
 
 .navbaritems {
